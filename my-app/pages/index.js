@@ -109,30 +109,24 @@ export default function Home() {
         <meta name="description" content="ENS-Dapp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
       <div className={styles.main}>
         <div>
           <h1 className={styles.title}>
-            Welcome WEIRD people {ens ? ens : address}!
+            Welcome to LearnWeb3 Punks {ens ? ens : address}!
           </h1>
           <div className={styles.description}>
-            Yo it's my NFT Collection!
+            Its an NFT collection for LearnWeb3 Punks.
           </div>
-          <div>
           {renderButton()}
-          </div>
         </div>
         <div>
           <img className={styles.image} src="./learnweb3punks.png" />
         </div>
-
       </div>
 
       <footer className={styles.footer}>
-        Made by longest &#x03BB;
+        Made with &#10084; by LearnWeb3 Punks
       </footer>
-
-    
     </div>
   );
 }
